@@ -75,21 +75,40 @@ header {
             border-radius: 5px;
         }
 
-        table {
-            margin: auto;
-            border-collapse: collapse;
-            width: 80%;
-            background: #ff0000;
-        }
+       table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 85%;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
 
-        th {
-            background-color: #bbbbbb;
-        }
 
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
+th {
+    background: #b30000;  /* tmavšia elegantná červená */
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+}
 
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+
+
+tr:hover {
+    background: #fff1f1;
+}
+
+
+tr:last-child td {
+    border-bottom: none;
+}
         a {
             color: black;
             text-decoration: none;
